@@ -58,11 +58,12 @@ class _MyHomePageState extends State<MyHomePage> {
   String _expression = '';
   String _result = '';
   final _buttonLabels = [
-    ['7', '8', '9', '/'],
+    ['7', '8', '9', '/', '%'],
     ['4', '5', '6', '*'],
     ['1', '2', '3', '-'],
     ['C', '0', '=', '+'],
   ];
+   
 
   void _onButtonPressed(String label) {
     setState(() {
